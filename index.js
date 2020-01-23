@@ -42,11 +42,6 @@ function convertTime(time) {
 	return output;
 }
 
-function test() {
-	mstime = convertTime(getTime(1));
-	console.log(convertTime(mstime));
-}
-
 function calc() {
 	time1 = convertTime(getTime(1));
 	time2 = convertTime(getTime(2)); 
